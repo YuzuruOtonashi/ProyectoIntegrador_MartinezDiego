@@ -1,0 +1,26 @@
+/*General*/
+
+body {
+    font-size: 20px;
+}
+
+/*Encabezado*/
+
+.enca {
+    padding: 0 0 0 0;
+    background-color: #51F;
+    display: flex;
+    height: 5vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*About*/
+
+/*Experiencia*/
+
+/*Educacion*/
+
+/*Hard & Soft Skills*/
+
+/*Proyectos*/
