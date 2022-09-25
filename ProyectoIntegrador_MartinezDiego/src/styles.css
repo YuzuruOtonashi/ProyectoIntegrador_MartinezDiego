@@ -10,10 +10,42 @@ body {
     padding: 0 0 0 0;
     background-color: #51F;
     display: flex;
-    height: 5vh;
+    height: 10vh;
     justify-content: space-between;
     align-items: center;
 }
+
+.social{
+    width:200px;
+    display: flex;
+  /*   box-sizing: content-box; */
+    padding:10px;
+    border-radius:10px;
+  /*   margin-top:100px; */
+    background:#ECF2FF;
+  }
+
+.social >a{
+    /*   border:1px solid; */
+      width: 25%;
+      font-size:2rem;
+    /*   padding:  15px; */
+      box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgba(255, 255, 255) -3px -3px 6px 1px;
+      height: 7vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius:5px;
+      background: #fff;
+      margin:10px;
+      transition:0.4s;
+    }
+    .social >a:hover{
+      transform:translateY(110px);
+      color: var(--color);
+    }
 
 /*About*/
 
