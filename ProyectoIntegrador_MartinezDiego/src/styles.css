@@ -1,53 +1,56 @@
 /*General*/
 
 body {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 /*Encabezado*/
 
 .enca {
-    padding-top: 10px;
-    background-color: #51F;
-    display: flex;
-    height: 10vh;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #52F;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.enlaces {
+  border-radius:1vh;
+  background:#888;
+  display: flex;
+  align-items: center;
+  padding-right: 1vw;
+  border: 1vw;
 }
 
 .social{
-    width:200px;
-    display: flex;
+  border: 1vw;
+  align-items: center;
+  width: 6vw;
+  display: flex;
   /*   box-sizing: content-box; */
-    padding:10px;
-    border-radius:10px;
-  /*   margin-top:100px; */
-    background:#555;
+  padding:10px;
+  padding-right: 2vw;
+  justify-content: space-between;
   }
-
-.social >a{
-    /*   border:1px solid; */
-      width: 25%;
-      font-size:2rem;
-    /*   padding:  15px; */
-      box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgba(255, 255, 255) -3px -3px 6px 1px;
-      height: 7vh;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      cursor: pointer;
-      text-decoration: none;
-      border-radius:5px;
-      background: #fff;
-      margin:10px;
-      transition:0.4s;
-    }
-    .social >a:hover{
-      transform:translateY(-10px);
-      color: var(--color);
-    }
-
+.sing_in {
+  padding-right: 1vw;
+  padding-inline-end: 1vw;
+}
+.li:hover{
+  transform: translateY(0.5vh);
+}
+.wp:hover{
+  transform: translateY(0.5vh) ;
+}
+.ig:hover{
+  transform: translateY(0.5vh) ;
+}
 /*About*/
+
+.about {
+  display: flex;
+}
 
 /*Experiencia*/
 
