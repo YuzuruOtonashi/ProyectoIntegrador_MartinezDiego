@@ -2,16 +2,28 @@
 
 body {
   font-size: 20px;
+  font-family: sans-serif;
 }
 
 /*Encabezado*/
 
 .enca {
-  background-color: #52F;
+  background-color: #21F;
   display: flex;
   height: 10vh;
   align-items: center;
   justify-content: space-between;
+  width: 100vw;
+  color: #FFF;
+}
+
+.logo_arg_pro {
+  display: flex;
+  align-items: center;
+}
+
+.logo_ap {
+  height: 10vh;
 }
 
 .enlaces {
@@ -46,11 +58,38 @@ body {
 .ig:hover{
   transform: translateY(0.5vh) ;
 }
+
+.img_banner {
+  width: 100vw;
+  object-fit: cover;
+  height: 50vh;
+}
+
 /*About*/
 
 .about {
   display: flex;
 }
+
+.foto_perfil {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  border-radius: 50%;
+  transform: translateY(-75px);
+  padding-left: 1vh;
+}
+
+.nombre_ap {
+  padding-left: 1vw;
+  transform: translateY(-50px);
+}
+
+.texto_about {
+  padding-left: 4vw;
+}
+
+
 
 /*Experiencia*/
 
