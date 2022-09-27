@@ -85,13 +85,24 @@ body {
   transform: translateY(-50px);
 }
 
-.texto_about {
-  padding-left: 4vw;
+.titulo {
+  padding-left: 0.7vw;
+  transform: translateY(-50px);
+  color: #555;
 }
 
+.texto_about {
+  padding-left: 10vw;
+  font-size: medium;
+}
 
+.titulo_about {
+  padding-left: 20vw;
+}
 
 /*Experiencia*/
+
+
 
 /*Educacion*/
 
