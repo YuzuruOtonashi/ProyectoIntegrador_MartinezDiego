@@ -102,7 +102,32 @@ body {
 
 /*Experiencia*/
 
+.exp_1 {
+  display: flex;
+}
 
+.tmh_1 {
+  height: 150px;
+  width: 150px;
+}
+
+.exp_2 {
+  display: flex;
+}
+
+.invap_1 {
+  height: 100px;
+  width: 150px;
+}
+
+.exp_3 {
+  display: flex;
+}
+
+.faa_1 {
+  height: 80px;
+  width: 150px;
+}
 
 /*Educacion*/
 
