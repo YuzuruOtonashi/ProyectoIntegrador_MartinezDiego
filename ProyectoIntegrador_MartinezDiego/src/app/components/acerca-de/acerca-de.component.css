@@ -1,0 +1,8 @@
+.img-fluid {
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-radius: 50%;
+}
