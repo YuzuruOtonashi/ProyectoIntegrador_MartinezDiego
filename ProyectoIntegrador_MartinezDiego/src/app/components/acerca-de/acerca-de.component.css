@@ -19,6 +19,24 @@ div {
     margin-left: 10px;
 }
 
-#foto-de-perfil {
-    
+@media (min-width: 576px){
+    #foto-de-perfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 3%;
+        top: 40vh;
+    }
+}
+
+@media (max-width: 575px){
+    #foto-de-perfil{
+        position: absolute;
+        width: 45%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left: 3%;
+        top: 40vh;
+    }
 }
