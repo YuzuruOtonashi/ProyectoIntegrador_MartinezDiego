@@ -33,7 +33,7 @@ div {
 @media (max-width: 575px){
     #foto-de-perfil{
         position: absolute;
-        width: 45%;
+        width: 90%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 3%;
