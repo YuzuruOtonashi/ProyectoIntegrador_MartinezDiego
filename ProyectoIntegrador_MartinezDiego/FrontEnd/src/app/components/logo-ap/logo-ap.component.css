@@ -1,0 +1,19 @@
+#logoap {
+    height: auto;
+    width: 10vw;
+}
+
+img {
+    width: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    padding-right: 2vw;
+}
