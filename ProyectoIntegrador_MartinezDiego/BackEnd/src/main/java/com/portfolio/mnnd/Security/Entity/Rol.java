@@ -5,7 +5,6 @@
 package com.portfolio.mnnd.Security.Entity;
 
 import com.portfolio.mnnd.Security.Enums.RolNombre;
-import static javax.persistence.DiscriminatorType.STRING;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
 import javax.persistence.Enumerated;
