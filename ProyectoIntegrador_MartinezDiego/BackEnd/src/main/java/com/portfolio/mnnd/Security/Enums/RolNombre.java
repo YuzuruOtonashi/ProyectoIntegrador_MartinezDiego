@@ -4,10 +4,6 @@
  */
 package com.portfolio.mnnd.Security.Enums;
 
-/**
- *
- * @author mdieg
- */
 public enum RolNombre {
-    ROL_ADMIN, ROL_USER;
+    ROL_ADMIN, ROL_USER
 }
