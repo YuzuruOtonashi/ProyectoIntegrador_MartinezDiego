@@ -10,6 +10,7 @@ import { LoginUsuario } from 'src/app/model/login-usuario';
   styleUrls: ['./login.component.css']
 })
 
+
 export class LoginComponent implements OnInit {
   isLogged = false;
   isLogginFail = false;
@@ -44,7 +45,6 @@ export class LoginComponent implements OnInit {
       this.isLogginFail = true;
       this.errMsj = err.error.mensaje;
       console.log(this.errMsj);
-      
     })
   }
 
