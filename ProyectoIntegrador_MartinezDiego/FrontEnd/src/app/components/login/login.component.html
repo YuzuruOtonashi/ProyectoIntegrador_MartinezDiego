@@ -21,20 +21,24 @@
 
         <div class="card bg-glass">
           <div class="card-body px-4 py-5 px-md-5">
-            <form #f="ngForm" (ngsubmit) = "onLogin()" novalidate>
+            <form #f="ngForm" (ngsubmit)="onLogin()" novalidate>
                 <!-- Email input -->
-              <div class="form-outline mb-4">
-                <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control"
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg"
                 [(ngModel)]="nombreUsuario" required
-                [ngModelOptions]="{standalone: true}"/>
-                <label class="form-label" for="form3Example3">Usuario</label>
+                [ngModelOptions]="{standalone:true}"/>
+                <label class="form-label" for="nombreUsuario">Usuario</label>
               </div>
 
               <!-- Password input -->
-              <div class="form-outline mb-4">
-                <input type="password" id="form3Example4" class="form-control" />
-                <label class="form-label" for="form3Example4">Password</label>
+              <div class="form-outline form-white mb-4">
+                <input type="password" id="password" class="form-control form-control-lg"
+                [(ngModel)]="password" required
+                [ngModelOptions]="{standalone:true}"/>
+                <label class="form-label" for="password">Password</label>
               </div>
+
+              <button class="btn btn-outline-light btn-lg px-5" type="submit">LogIn</button>
             </form>
           </div>
         </div>
