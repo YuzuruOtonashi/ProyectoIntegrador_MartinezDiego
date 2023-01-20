@@ -1,6 +1,6 @@
 #logoap {
-    height: auto;
-    width: 10vw;
+    width: 110px;
+    height: 75px;
 }
 
 img {
@@ -16,4 +16,21 @@ img {
 .redes {
     display: flex;
     padding-right: 2vw;
+}
+
+#li {
+    width: 35px;
+}
+
+#wpp {
+    width: 50px;
+}
+
+#gm {
+    width: 50px;
+    padding: 0;
+}
+
+#ig {
+    width: 50px;
 }
